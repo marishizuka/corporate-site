@@ -501,3 +501,10 @@ padding-right:20px;
 }
 /* companyの箇所--------------------------------------------------*/
 
+/* FacebookのSP版100%表示させる---------------------------------*/
+
+.fb_iframe_widget,
+.fb_iframe_widget span,
+.fb_iframe_widget iframe[style]{
+    width: 100% !important;
+}
